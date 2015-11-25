@@ -1,23 +1,31 @@
-body {
-    font-family: Helvetica;
-    background-color: ;
-}
-
-h1 {
-    color: #383cc1 ;
+.jumbotron {
+    background-color: #f4511e;
+    color: #ffffff;
     text-align: center;
+    padding: 100px 25px;
 }
 
-h2 {
-    color: #8e8383 ;
-    text-align: center;
-    font-size: 75%;
+.container-fluid {
+    padding: 60px 50px;
 }
 
-p {
-    text-indent: 50px
+.logo {
+    color: #f4511e;
+    font-size: 200px;
 }
 
-footer{
-    
+.logo-small{
+    color: #f4511e;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
 }
